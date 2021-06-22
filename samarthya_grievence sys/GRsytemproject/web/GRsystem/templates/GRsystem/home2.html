@@ -1,0 +1,113 @@
+{% extends "GRsystem/index2.html" %}
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+{% block content %}
+<style>
+body
+{
+
+    background-color: #f0f6f8 !important;
+    
+}
+img{
+  width:100%;
+  height:100%;
+}
+.card
+{
+  border:#f0f6f8!important;
+}
+</style>
+          {% load static %}
+  
+          
+<div  style="background-color:rgb(92, 194, 241);text-align:center;height: 60px">
+    
+                 <div >
+                  
+                <p style="color:rgb(255, 255, 255); font-size:40px;"> <b> SAMARTHYA GRIEVANCE SYSTEM</b></p>
+       <!-- <p style="color:rgb(255, 255, 255); font-size:15px; text-align:center;">  <b>  Aiming to improve quality of public-services delivery.</b> 
+       -->
+                 
+       
+                </p>
+  </div>
+<br>
+
+</div>
+
+ {% load static %}
+<div>
+ <img src="{% static 'GRsystem/img/c1.jpg' %}" style="height: 500px;">
+ </div>
+ 
+<center>
+  <br>
+  <br>
+  <br>
+<div class="row  d-flex justify-content-center">
+<div class="col-sm-3 col-sm-pull-4">
+<div class="card bg-primary text-white" style="width: 18rem;height: 22rem">
+  <img src="{% static 'GRsystem/img/gah.jpg' %}" class="img-rounded" alt="Cinque Terre">
+  <div class="card-body">
+    <p class="card-text" style="font-size: 20px; font-family:  Arial;font-style: oblique;" >  <b>Submit a grievance </b></p>
+  </div>
+</div>
+</div>
+<div class="col-sm-3 col-sm-pull-4">
+<div class="card bg-primary text-white" style="width: 18rem;height: 22rem">
+  <img src="{% static 'GRsystem/img/agf.jpg' %}" class="img-rounded" alt="Cinque Terre">
+  <div class="card-body">
+    <p class="card-text" style="font-size: 20px ; font-family:  Arial;font-style: oblique;" >  <b>Solve  Complaints </b></p>
+  </div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="card bg-primary text-white" style="width: 18rem;height: 22rem;">
+   <img src="{% static 'GRsystem/img/hag.jpg' %}" class="img-rounded" alt="Cinque Terre">
+  <div class="card-body">
+    <p class="card-text"style="font-size: 20px;font-family:  Arial;font-style: oblique;" >  <b>See current grievances</b></p>
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<h4 style="color:cadetblue;">What is Samarthya?</h4>
+
+<pre style="font-style:oblique;font-size: 15px;">Samarthya started as a social collective much like any other social movement –
+  with shared beliefs, hopes and dreams. The metamorphosis of one and half year 
+  led to the creation of formal entity AEES (Association For Equitable Educational
+  Spaces).We still are known and operate by our original name Samarthya – meaning enabled,
+  because it captures the essence of what we hope to achieve. Enabled Parents. Enabled SMCs.
+  Enabled Schools Systems.We are committed to working on the ground level with first level
+  actors i.e parents and schools while seeking leverage with actors higher up the chain 
+  – bureaucracy, government, academia and NGOs.</pre>
+
+  <!--
+<h4>What is an SMC?</h4>
+
+<span style="display:inline;text-align:justify;">School Management Committee (SMC) is a basic unit of a decentralized model of governance with an active involvement of parents in the school’s functioning.Section 21 of the Right to Free and Compulsory Education Act 2009 (RTE), mandates the formation of School Management Committees (SMCs) in all elementary government, government-aided schools and special category schools in the country. The RTE mandates that each SMC should consist of 75% parents. In Delhi, an SMC has 16 members per school, consisting of the head of school, a school teacher, one MLA representative, one social worker and twelve parent members.</span>
+
+
+<h4>Why do we work with parents? </h4>  
+<span style="display: inline;text-align:justify;">We believe that active parental participation has the potential to improve the efficiency of a school as parents have the highest incentive to demand a better quality of education for their children. Parent members form the core of each SMC. Two-third strength of an SMC is drawn from parents who are elected every new cycle. SMCs have the potential to become a game-changing systemic tool that can strengthen the public schooling system of our country and help children access their rights.  </span>
+  -->
+</center>
+
+  {% endblock %}

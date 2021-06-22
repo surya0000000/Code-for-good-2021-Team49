@@ -1,0 +1,51 @@
+{% extends "GRsystem/index.html" %}
+
+
+{% load crispy_forms_tags %}
+{% block content %}
+
+<style>
+
+</style>
+
+<body style="background: #4ddbff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4ddbff, #008ae6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+"
+>
+<div  class="jumbotron text-center">
+        <h1 style="color:#008ae6">SAMARTHYA GRIEVANCE SYSTEM LOGIN</h1>
+        <p style="color:#008ae6" ><font size = '5'>Choose the preferred Login.</font></p> 
+      </div>
+
+          {% load static %}
+      <center>
+        
+        <div class="row d-flex justify-content-center ">
+        <div class="col-sm-3">
+         <div class="card mx-auto ">
+          <div class="col">
+              <br>
+            <img src="{% static 'GRsystem/img/mngmt.png' %}" width="230" height="225 "class="img-rounded" alt="Cinque Terre">
+            
+            <p></p>
+            <a href="/signin/"><button type="button" class="btn  btn-outline-primary">Login for School Management Comittee</button></a>
+           </div>
+           </div>
+          </div>
+        <div class="col-sm-3">
+         <div class="card mx-auto">
+          <div class="col">
+
+                <br>
+            <img src="{% static 'GRsystem/img/sam_logo.png' %}"width="245" height="225 " class="img-rounded" alt="Cinque Terre">
+            <p></p>
+           <a href="/admin/" class="btn  btn-outline-primary">Login for Samarthya</a>
+          </div>
+          </div>
+        </div>
+       </div>
+</center>
+      </body>
+
+  {% endblock content %}
